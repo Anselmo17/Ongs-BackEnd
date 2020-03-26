@@ -1,6 +1,4 @@
 const express = require('express');
-const crypto = require('crypto');
-const connection = require('../src/database/connection');
 const ongController = require('../../backEnd/src/controllers/ongControllers');
 const incidentController = require('../src/controllers/incidentControllers');
 const profileController = require('../src/controllers/profileControllers');
