@@ -14,7 +14,7 @@ const router = express.Router();
 router.post('/session', sessionController.createSession);
 
 //profile
-router.get('/profile/:id', profileController.listOngId);
+router.get('/profile', profileController.listOngId);
 
 //  rotas ongs
 router.get('/ongs', ongController.listOngs);
